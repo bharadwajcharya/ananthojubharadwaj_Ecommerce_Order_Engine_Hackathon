@@ -1,0 +1,19 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'store/style.css' %}">
+<h2>Your Cart</h2>
+
+<ul>
+{% for i in items %}
+    <li>
+        {{ i.product.name }} - Qty: {{ i.quantity }} 
+        - ₹{{ i.product.price }} 
+        <a href="/remove/{{ i.product.id }}/">Remove</a>
+    </li>
+{% endfor %}
+</ul>
+
+<h3>Total: ₹{{ total }}</h3>
+
+<br>
+<a href="/products/">Continue Shopping</a>
+<a href="/place-order/">Place Order</a>

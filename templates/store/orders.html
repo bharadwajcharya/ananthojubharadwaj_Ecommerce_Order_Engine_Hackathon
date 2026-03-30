@@ -1,0 +1,14 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'store/style.css' %}">
+<h2>Orders</h2>
+
+<ul>
+{% for o in orders %}
+    <li>
+        Order {{ o.id }} - {{ o.status }} - ₹{{ o.total }}
+        <a href="/cancel/{{ o.id }}/">Cancel</a>
+    </li>
+{% endfor %}
+</ul>
+
+<a href="/">Home</a>

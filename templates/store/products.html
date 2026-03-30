@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'store/style.css' %}">
+<h2>Products</h2>
+
+<a href="/add-product/">Add Product</a><br><br>
+
+<ul>
+{% for p in products %}
+    <li>
+        {{ p.name }} - ₹{{ p.price }} - Stock: {{ p.stock }}
+    </li>
+{% endfor %}
+</ul>
+
+<br>
+<a href="/">Back to Home</a>

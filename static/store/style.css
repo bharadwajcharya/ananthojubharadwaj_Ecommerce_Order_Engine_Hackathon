@@ -1,0 +1,121 @@
+/* RESET */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container {
+    width: 75%;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f5f6fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    color: #192a56;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    color: #273c75;
+    font-size: 26px;
+}
+
+/* LINKS / BUTTONS */
+a {
+    text-decoration: none;
+    color: white;
+    background: #2980b9;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #3498db;
+    transform: scale(1.05);
+}
+
+/* LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 12px 0;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    font-size: 16px;
+}
+
+/* FORM */
+form {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* BUTTON */
+button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2ecc71;
+}
+
+/* TOTAL */
+h3 {
+    text-align: center;
+    color: #c0392b;
+    font-size: 22px;
+}
+
+/* SUCCESS */
+.success {
+    text-align: center;
+    color: #27ae60;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ERROR */
+.error {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+}

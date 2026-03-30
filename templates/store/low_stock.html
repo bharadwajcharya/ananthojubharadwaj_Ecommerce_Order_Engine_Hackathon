@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'store/style.css' %}">
+<h2>Low Stock Products ⚠️</h2>
+
+<ul>
+{% for p in products %}
+    <li>{{ p.name }} - Stock: {{ p.stock }}</li>
+{% endfor %}
+</ul>
+
+<a href="/">Home</a>

@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'store/style.css' %}">
+<h2>Add Product</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    
+    Name: <input type="text" name="name"><br><br>
+    Price: <input type="number" name="price"><br><br>
+    Stock: <input type="number" name="stock"><br><br>
+
+    <button type="submit">Add</button>
+</form>
