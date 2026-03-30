@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 E-Commerce Backend System (Django)
 
 ## 📌 Project Overview
@@ -76,3 +77,6 @@ The system simulates real-world e-commerce functionalities like product manageme
 
 
 
+=======
+# ananthojubharadwaj_Ecommerce_Order_Engine_Hackathon
+>>>>>>> 0e8e65ac16956b8fbbd1231925322d90474a3ef2
